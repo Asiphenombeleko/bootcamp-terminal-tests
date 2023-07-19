@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alpine.js</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.3/dist/cdn.min.js"></script>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <div x-data="Counter()">
+            <h1>Counter</h1>
+            
+            <div class="counter" x-text="count"></div>
+            <div>
+                <button @click="increment()">+</button>
+                <button @click="decrement()">-</button>
+            </div>
+        </div>
+
+
+
+        <script src="counter.js"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
