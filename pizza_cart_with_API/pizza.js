@@ -9,14 +9,14 @@ document.addEventListener("alpine :init", () => {
             cartTotal : 0.00,
              getCart() {
                const getCartURL = 'https://pizza-api.projectcodex.net/api/pizza-cart/${this.cartId}/get'
-               return axios.get(getCartUR);
+               return axios.get(getCartURL);
              },
                  init(){
                       axios
                         .get('https://pizza-api.projectcodex.net/api/pizzas')
                         .then(result => {
                         //you can add more code here
-                        // console.log(result.data)
+                         //console.log(result.data)
                         this.pizzas = result.data.pizzas
                     });
 
