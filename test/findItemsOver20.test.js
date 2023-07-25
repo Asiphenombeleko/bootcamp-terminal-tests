@@ -1,6 +1,6 @@
 
 import assert from 'assert'
-import findItemsOver20 from '../JS/findItemsOver20.js';
+import findItemsOver20 from '../functions/findItemsOver20.js';
 
 describe('Test my findItemsOver20 function' , function(){
     it('It should return  all items that are bigger than 20' , function(){

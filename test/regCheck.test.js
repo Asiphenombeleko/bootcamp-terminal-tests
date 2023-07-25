@@ -1,5 +1,5 @@
 import assert from 'assert'
-import regCheck from '../JS/regCheck.js';
+import regCheck from '../functions/regCheck.js';
 
 describe('Test my regCheck function' , function(){
     it('It should return  true if a registration number is for Gauteng' , function(){

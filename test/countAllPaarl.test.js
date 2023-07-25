@@ -1,5 +1,5 @@
 import assert from 'assert'
-import countAllPaarl from '../JS/countAllPaarl.js';
+import countAllPaarl from '../functions/countAllPaarl.js';
 
 describe('The countAllPaarl function', function () {
     it('It should return the number of registration numbers in the string for Paarl', function () {
